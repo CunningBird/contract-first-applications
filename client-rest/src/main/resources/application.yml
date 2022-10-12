@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: client-rest
+  main:
+    banner-mode: off

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: server-graphql
+  main:
+    banner-mode: off

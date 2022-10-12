@@ -1,0 +1,9 @@
+grpc:
+  server:
+    port: 8084
+
+spring:
+  application:
+    name: server-grpc
+  main:
+    banner-mode: off
