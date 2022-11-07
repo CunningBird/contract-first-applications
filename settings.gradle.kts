@@ -1,9 +1,13 @@
 rootProject.name = "contract-first-applications"
 
-include("client-rest")
-include("client-grpc")
+//include("server-openapi")
+//include("client-openapi")
 
-include("server-rest")
-include("server-grpc")
-include("server-soap")
-include("server-graphql")
+include("server-protobuf")
+include("client-protobuf")
+
+//include("server-wsdl")
+//include("client-wsdl")
+
+//include("server-graphqls")
+//include("client-graphqls")
