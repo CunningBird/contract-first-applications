@@ -28,7 +28,7 @@ dependencies {
     implementation("org.springframework.data:spring-data-commons:2.7.3")
 
     // Contract
-    implementation("com.cunningbird.templates:contract-first-rest:1.0.1")
+    implementation("com.cunningbird.contractfirst.openapi:contract:1.0.0")
 
     // SpringDoc dependencies
     implementation("org.springdoc:springdoc-openapi-webmvc-core:1.6.11")

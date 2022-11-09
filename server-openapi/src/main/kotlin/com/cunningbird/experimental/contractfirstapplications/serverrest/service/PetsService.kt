@@ -1,6 +1,6 @@
 package com.cunningbird.experimental.contractfirstapplications.serverrest.service
 
-import com.cunningbird.templates.contractfirstrest.model.Pet
+import com.cunningbird.contractfirst.openapi.contract.model.Pet
 import org.springframework.stereotype.Service
 
 @Service

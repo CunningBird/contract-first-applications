@@ -1,8 +1,8 @@
 package com.cunningbird.experimental.contractfirstapplications.serverrest.controller
 
+import com.cunningbird.contractfirst.openapi.contract.api.PetsApi
+import com.cunningbird.contractfirst.openapi.contract.model.Pet
 import com.cunningbird.experimental.contractfirstapplications.serverrest.service.PetsService
-import com.cunningbird.templates.contractfirstrest.api.PetsApi
-import com.cunningbird.templates.contractfirstrest.model.Pet
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.RestController
@@ -22,5 +22,9 @@ class PetsApiImpl(
         } catch (e: Exception) {
             ResponseEntity(HttpStatus.BAD_REQUEST)
         }
+    }
+
+    override fun createPet(pet: Pet): ResponseEntity<Void> {
+        return ResponseEntity(HttpStatus.CREATED)
     }
 }

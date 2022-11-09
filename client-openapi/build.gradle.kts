@@ -27,7 +27,7 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 
     // Contract
-    implementation("com.cunningbird.templates:contract-first-rest:1.0.1")
+    implementation("com.cunningbird.contractfirst.openapi:contract:1.0.0")
 
     // SpringDoc dependencies
     implementation("org.springdoc:springdoc-openapi-webmvc-core:1.6.11")
