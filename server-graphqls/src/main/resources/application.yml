@@ -1,5 +1,10 @@
+server:
+  port: 8082
 spring:
   application:
     name: server-graphql
   main:
     banner-mode: off
+  graphql:
+    schema:
+      locations: classpath:graphql/**/

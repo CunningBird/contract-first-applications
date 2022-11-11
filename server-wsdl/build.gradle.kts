@@ -23,6 +23,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    // Spring
-    implementation("org.springframework.boot:spring-boot-starter")
+    // Contract
+    implementation("com.cunningbird.contractfirst.wsdl:contract:1.0.0")
+
+    // Web
+    implementation("org.springframework.boot:spring-boot-starter-web-services")
 }

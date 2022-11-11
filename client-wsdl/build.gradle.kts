@@ -24,11 +24,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
     // Contract
-    implementation("com.cunningbird.templates:contract-first-wsdl:1.0.1")
-}
+    implementation("com.cunningbird.contractfirst.wsdl:contract:1.0.0")
 
-dependencyManagement {
-    imports {
-        mavenBom("org.springframework.cloud:spring-cloud-starter-parent:2021.0.1")
-    }
+    // Web
+    implementation("org.springframework.boot:spring-boot-starter-web-services")
 }

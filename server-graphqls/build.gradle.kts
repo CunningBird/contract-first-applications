@@ -23,9 +23,13 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    // Spring
-    implementation("org.springframework.boot:spring-boot-starter")
-
     // Contract
     implementation("com.cunningbird.contractfirst.graphqls:contract:1.0.0")
+
+    // Web
+    implementation("org.springframework.boot:spring-boot-starter-web:2.7.5")
+    implementation("org.springframework.boot:spring-boot-starter-graphql:2.7.5")
+
+    // Validation
+    implementation("javax.validation:validation-api:2.0.1.Final")
 }
