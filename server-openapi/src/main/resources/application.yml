@@ -3,6 +3,6 @@ server:
 
 spring:
   application:
-    name: server-rest
+    name: server-openapi
   main:
     banner-mode: off

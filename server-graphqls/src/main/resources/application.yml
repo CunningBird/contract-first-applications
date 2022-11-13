@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    name: server-graphql
+    name: server-graphqls
   main:
     banner-mode: off
   graphql:

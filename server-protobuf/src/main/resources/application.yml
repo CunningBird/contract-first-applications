@@ -4,6 +4,6 @@ grpc:
 
 spring:
   application:
-    name: server-grpc
+    name: server-protobuf
   main:
     banner-mode: off
